@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Scheme Picker</title>
+  </head>
+
+<body>
+    <main>
+        <div class="top-box">
+            <input type="color" name="color" id="color-pick" value="#F55A5A">
+            <select id="theme-pick">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-color">Get color scheme</button>
+        </div>
+        <div class="colors" id="colors">
+            <div class="color" id="color-1"></div>
+            <div class="color" id="color-2"></div>
+            <div class="color" id="color-3"></div>
+            <div class="color" id="color-4"></div>
+            <div class="color" id="color-5"></div>
+        </div>
+        <div class="hexs" id="hexs">
+            <h3 class="hex-color" id="hex-1">#C01010</h3>
+            <h3 class="hex-color" id="hex-2">#ED1515</h3>
+            <h3 class="hex-color" id="hex-3">#F24444</h3>
+            <h3 class="hex-color" id="hex-4">#F67373</h3>
+            <h3 class="hex-color" id="hex-5">#F9A2A2</h3>
+
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
